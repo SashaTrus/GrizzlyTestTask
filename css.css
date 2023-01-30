@@ -1,0 +1,113 @@
+.wrapper{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.section-wrapper {
+    padding-left: calc((100% - 1270px)/4);
+}
+.section-body{
+    width: 1756px;
+    height: 530px;
+    background-image: url("img_2.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 210px 0 150px 0;
+}
+@media (max-width: 991px) {
+    .section-body {
+        width: 991px;
+        background-image: url("img_1.png");
+        background-size: cover;
+    }
+    .section-body{
+        width: 900px;
+        height: 750px;
+
+        padding: 500px 0 150px 0;
+    }
+    .section-title {
+        width: 500px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .section-btn .btn {
+        margin-top: 28px;
+    }
+}
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+}
+.section-btn .btn {
+    position: absolute;
+    width: 260px;
+    height: 48px;
+    padding: 16px !important;
+    background: #78599C;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.title{
+    width: 600px;
+    height: 52px;
+    margin-bottom: 48px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+
+    color: #2E2E2E;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    flex: 0 0 25%;
+    padding: 10px;
+}
+.item .body{
+    background: #F9F9F9;
+    height: 100%;
+    border-radius: 4px;
+    padding: 32px 24px 68px 24px;
+}
+.img{
+    margin-bottom: 32px;
+}
+.text{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #2E2E2E;
+    margin-bottom: 16px;
+}
+.btnlink{
+    position: absolute;
+    display: flex;
+    width: 34px;
+    height: 21px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+
+}
+.btnlink a {
+    color: #2E2E2E;
+    text-decoration: none;
+}
