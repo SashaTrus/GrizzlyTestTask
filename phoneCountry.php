@@ -11,7 +11,7 @@ $replaceArr = array("+", " ", "-", "(", ")");
 $replacePhone = str_replace($replaceArr, "", $phone);//убираем символы с номера телефона
 $replacePhoneCount = strlen($replacePhone);//считаем длинну номера
 
-for ($i=0;$i,count($CountryArray);$i++){
+for ($i=0;$i<count($CountryArray);$i++){
     $replaceDataPhone = str_replace($replaceArr, "", $CountryArray[$i]['mask']);//убираем символы с номера телефона
     $replaceDataPhoneCount = strlen($replaceDataPhone);//считаем длинну номера
     $replaceDataPhoneForSearch = str_replace('#','', $replaceDataPhone);//убираем # с номера телефона для поиска
